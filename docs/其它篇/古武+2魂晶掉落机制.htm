@@ -1,16 +1,13 @@
-<html xmlns:v="urn:schemas-microsoft-com:vml"
-xmlns:o="urn:schemas-microsoft-com:office:office"
-xmlns:w="urn:schemas-microsoft-com:office:word"
-xmlns="http://www.w3.org/TR/REC-html40">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
 
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=gb2312">
-<meta name=ProgId content=Word.Document>
-<meta name=Generator content="Microsoft Word 11">
-<meta name=Originator content="Microsoft Word 11">
-<link rel=File-List href="����+2�꾧�������.files/filelist.xml">
-<link rel=Edit-Time-Data href="����+2�꾧�������.files/editdata.mso">
-<!--[if !mso]>
+    <meta http-equiv=Content-Type content="text/html; charset=gb2312">
+    <meta name=ProgId content=Word.Document>
+    <meta name=Generator content="Microsoft Word 11">
+    <meta name=Originator content="Microsoft Word 11">
+    <link rel=File-List href="古武+2魂晶掉落机制.files/filelist.xml">
+    <link rel=Edit-Time-Data href="古武+2魂晶掉落机制.files/editdata.mso">
+    <!--[if !mso]>
 <style>
 v\:* {behavior:url(#default#VML);}
 o\:* {behavior:url(#default#VML);}
@@ -18,11 +15,11 @@ w\:* {behavior:url(#default#VML);}
 .shape {behavior:url(#default#VML);}
 </style>
 <![endif]-->
-<title>�����Ƭ�����ʱ��</title>
-<!--[if gte mso 9]><xml>
+    <title>灵魂碎片掉落计时器</title>
+    <!--[if gte mso 9]><xml>
  <o:DocumentProperties>
-  <o:Author>Windows �û�</o:Author>
-  <o:LastAuthor>��D����</o:LastAuthor>
+  <o:Author>Windows 用户</o:Author>
+  <o:LastAuthor>光咲凛音</o:LastAuthor>
   <o:Revision>2</o:Revision>
   <o:TotalTime>120</o:TotalTime>
   <o:Created>2014-08-18T06:16:00Z</o:Created>
@@ -39,11 +36,12 @@ w\:* {behavior:url(#default#VML);}
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><![endif]--><!--[if gte mso 9]><xml>
+</xml><![endif]-->
+    <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:GrammarState>Clean</w:GrammarState>
   <w:PunctuationKerning/>
-  <w:DrawingGridVerticalSpacing>7.8 ��</w:DrawingGridVerticalSpacing>
+  <w:DrawingGridVerticalSpacing>7.8 磅</w:DrawingGridVerticalSpacing>
   <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
   <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
   <w:ValidateAgainstSchemas/>
@@ -66,83 +64,107 @@ w\:* {behavior:url(#default#VML);}
   </w:Compatibility>
   <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
  </w:WordDocument>
-</xml><![endif]--><!--[if gte mso 9]><xml>
+</xml><![endif]-->
+    <!--[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
  </w:LatentStyles>
 </xml><![endif]-->
-<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:����;
-	panose-1:2 1 6 0 3 1 1 1 1 1;
-	mso-font-alt:SimSun;
-	mso-font-charset:134;
-	mso-generic-font-family:auto;
-	mso-font-pitch:variable;
-	mso-font-signature:3 680460288 22 0 262145 0;}
-@font-face
-	{font-family:΢���ź�;
-	panose-1:2 11 5 3 2 2 4 2 2 4;
-	mso-font-charset:134;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
-@font-face
-	{font-family:"\@΢���ź�";
-	panose-1:2 11 5 3 2 2 4 2 2 4;
-	mso-font-charset:134;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
-@font-face
-	{font-family:"\@����";
-	panose-1:2 1 6 0 3 1 1 1 1 1;
-	mso-font-charset:134;
-	mso-generic-font-family:auto;
-	mso-font-pitch:variable;
-	mso-font-signature:3 680460288 22 0 262145 0;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{mso-style-parent:"";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	text-align:justify;
-	text-justify:inter-ideograph;
-	mso-pagination:none;
-	font-size:10.5pt;
-	mso-bidi-font-size:12.0pt;
-	font-family:"Times New Roman";
-	mso-fareast-font-family:����;
-	mso-font-kerning:1.0pt;}
-a:link, span.MsoHyperlink
-	{color:blue;
-	text-decoration:underline;
-	text-underline:single;}
-a:visited, span.MsoHyperlinkFollowed
-	{color:purple;
-	text-decoration:underline;
-	text-underline:single;}
- /* Page Definitions */
- @page
-	{mso-page-border-surround-header:no;
-	mso-page-border-surround-footer:no;}
-@page Section1
-	{size:595.3pt 841.9pt;
-	margin:72.0pt 90.0pt 72.0pt 90.0pt;
-	mso-header-margin:42.55pt;
-	mso-footer-margin:49.6pt;
-	mso-paper-source:0;
-	layout-grid:15.6pt;}
-div.Section1
-	{page:Section1;}
--->
-</style>
-<!--[if gte mso 10]>
+    <style>
+        <!--
+        /* Font Definitions */
+        @font-face {
+            font-family: 宋体;
+            panose-1: 2 1 6 0 3 1 1 1 1 1;
+            mso-font-alt: SimSun;
+            mso-font-charset: 134;
+            mso-generic-font-family: auto;
+            mso-font-pitch: variable;
+            mso-font-signature: 3 680460288 22 0 262145 0;
+        }
+
+        @font-face {
+            font-family: 微软雅黑;
+            panose-1: 2 11 5 3 2 2 4 2 2 4;
+            mso-font-charset: 134;
+            mso-generic-font-family: swiss;
+            mso-font-pitch: variable;
+            mso-font-signature: -2147483001 672087122 22 0 262175 0;
+        }
+
+        @font-face {
+            font-family: "\@微软雅黑";
+            panose-1: 2 11 5 3 2 2 4 2 2 4;
+            mso-font-charset: 134;
+            mso-generic-font-family: swiss;
+            mso-font-pitch: variable;
+            mso-font-signature: -2147483001 672087122 22 0 262175 0;
+        }
+
+        @font-face {
+            font-family: "\@宋体";
+            panose-1: 2 1 6 0 3 1 1 1 1 1;
+            mso-font-charset: 134;
+            mso-generic-font-family: auto;
+            mso-font-pitch: variable;
+            mso-font-signature: 3 680460288 22 0 262145 0;
+        }
+
+        /* Style Definitions */
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            mso-style-parent: "";
+            margin: 0cm;
+            margin-bottom: .0001pt;
+            text-align: justify;
+            text-justify: inter-ideograph;
+            mso-pagination: none;
+            font-size: 10.5pt;
+            mso-bidi-font-size: 12.0pt;
+            font-family: "Times New Roman";
+            mso-fareast-font-family: 宋体;
+            mso-font-kerning: 1.0pt;
+        }
+
+        a:link,
+        span.MsoHyperlink {
+            color: blue;
+            text-decoration: underline;
+            text-underline: single;
+        }
+
+        a:visited,
+        span.MsoHyperlinkFollowed {
+            color: purple;
+            text-decoration: underline;
+            text-underline: single;
+        }
+
+        /* Page Definitions */
+        @page {
+            mso-page-border-surround-header: no;
+            mso-page-border-surround-footer: no;
+        }
+
+        @page Section1 {
+            size: 595.3pt 841.9pt;
+            margin: 72.0pt 90.0pt 72.0pt 90.0pt;
+            mso-header-margin: 42.55pt;
+            mso-footer-margin: 49.6pt;
+            mso-paper-source: 0;
+            layout-grid: 15.6pt;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+        -->
+    </style>
+    <!--[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
-	{mso-style-name:��ͨ����;
+	{mso-style-name:普通表格;
 	mso-tstyle-rowband-size:0;
 	mso-tstyle-colband-size:0;
 	mso-style-noshow:yes;
@@ -157,7 +179,7 @@ div.Section1
 	mso-fareast-language:#0400;
 	mso-bidi-language:#0400;}
 table.MsoTableGrid
-	{mso-style-name:������;
+	{mso-style-name:网格型;
 	mso-tstyle-rowband-size:0;
 	mso-tstyle-colband-size:0;
 	border:solid windowtext 1.0pt;
@@ -176,9 +198,11 @@ table.MsoTableGrid
 	mso-fareast-language:#0400;
 	mso-bidi-language:#0400;}
 </style>
-<![endif]--><!--[if gte mso 9]><xml>
+<![endif]-->
+    <!--[if gte mso 9]><xml>
  <o:shapedefaults v:ext="edit" spidmax="3074"/>
-</xml><![endif]--><!--[if gte mso 9]><xml>
+</xml><![endif]-->
+    <!--[if gte mso 9]><xml>
  <o:shapelayout v:ext="edit">
   <o:idmap v:ext="edit" data="1"/>
  </o:shapelayout></xml><![endif]-->
@@ -187,73 +211,79 @@ table.MsoTableGrid
 <body lang=ZH-CN link=blue vlink=purple style='tab-interval:21.0pt;text-justify-trim:
 punctuation'>
 
-<div class=Section1 style='layout-grid:15.6pt'>
+    <div class=Section1 style='layout-grid:15.6pt'>
 
-<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
-normal'><span style='font-size:14.0pt;font-family:΢���ź�;color:#3366FF'>�꾧�������<span
-lang=EN-US><o:p></o:p></span></span></b></p>
+        <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;font-family:微软雅黑;color:#3366FF'>魂晶掉落机制<span lang=EN-US>
+                        <o:p></o:p>
+                    </span></span></b></p>
 
-<p class=MsoNormal><span style='font-size:12.0pt;font-family:΢���ź�'>���ȶԹ���<span
-lang=EN-US>+2</span>�����У��꾧<span lang=EN-US>(Atma)</span>�ĵ�����ƽ�����˵�����꾧����<span
-lang=EN-US>12</span>�飬ÿ������һ��������һ����<span lang=EN-US>12</span>�������ֱ���<span
-lang=EN-US>12</span>�ػ������Ӧ��<span lang=EN-US><o:p></o:p></span></span></p>
+        <p class=MsoNormal><span style='font-size:12.0pt;font-family:微软雅黑'>首先对古武<span lang=EN-US>+2</span>任务中，魂晶<span lang=EN-US>(Atma)</span>的掉落机制进行下说明。魂晶共有<span lang=EN-US>12</span>块，每块所属一个星座，一共有<span lang=EN-US>12</span>星座，分别与<span lang=EN-US>12</span>守护神相对应。<span lang=EN-US>
+                    <o:p></o:p>
+                </span></span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;font-family:΢���ź�'>12</span><span
-style='font-size:12.0pt;font-family:΢���ź�'>�ػ�������ж�Ӧ�����Ժ��·ݡ����£�<span lang=EN-US><o:p></o:p></span></span></p>
+        <p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;font-family:微软雅黑'>12</span><span style='font-size:12.0pt;font-family:微软雅黑'>守护神各自有对应的属性和月份。如下：<span lang=EN-US>
+                    <o:p></o:p>
+                </span></span></p>
 
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+        <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
  mso-yfti-tbllook:480;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:
  .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
- <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-  <td style='border:solid windowtext 1.0pt;mso-border-alt:solid windowtext .5pt;
+            <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+                <td style='border:solid windowtext 1.0pt;mso-border-alt:solid windowtext .5pt;
   background:#404040;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center;line-height:250%'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
-  250%;font-family:΢���ź�;color:white'>���<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
+                    <p class=MsoNormal align=center style='text-align:center;line-height:250%'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+  250%;font-family:微软雅黑;color:white'>标记<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
   solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;background:#404040;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center;line-height:250%'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
-  250%;font-family:΢���ź�;color:white'>�Ա�<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
+                    <p class=MsoNormal align=center style='text-align:center;line-height:250%'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+  250%;font-family:微软雅黑;color:white'>性别<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
   solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;background:#404040;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center;line-height:250%'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
-  250%;font-family:΢���ź�;color:white'>����<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
+                    <p class=MsoNormal align=center style='text-align:center;line-height:250%'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+  250%;font-family:微软雅黑;color:white'>名字<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
   solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;background:#404040;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center;line-height:250%'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
-  250%;font-family:΢���ź�;color:white'>����<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
+                    <p class=MsoNormal align=center style='text-align:center;line-height:250%'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+  250%;font-family:微软雅黑;color:white'>属性<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
   solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;background:#404040;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center;line-height:250%'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
-  250%;font-family:΢���ź�;color:white'>�·�<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
+                    <p class=MsoNormal align=center style='text-align:center;line-height:250%'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+  250%;font-family:微软雅黑;color:white'>月份<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
   solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;background:#404040;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center;line-height:250%'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
-  250%;font-family:΢���ź�;color:white'>����<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:1'>
-  <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+                    <p class=MsoNormal align=center style='text-align:center;line-height:250%'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+  250%;font-family:微软雅黑;color:white'>星座<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow:1'>
+                <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
   solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
-  font-family:΢���ź�'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:微软雅黑'>
+                                <!--[if gte vml 1]><v:shapetype id="_x0000_t75"
    coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
    filled="f" stroked="f">
    <v:stroke joinstyle="miter"/>
@@ -275,883 +305,926 @@ style='font-size:12.0pt;font-family:΢���ź�'>�ػ�������ж�Ӧ�����Ժ��·ݡ�����
    <o:lock v:ext="edit" aspectratio="t"/>
   </v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:24pt;
    height:24pt'>
-   <v:imagedata src="����+2�꾧�������.files/image001.png" o:title="halone"/>
-  </v:shape><![endif]--><![if !vml]><img width=32 height=32
-  src="����+2�꾧�������.files/image001.png" v:shapes="_x0000_i1025"><![endif]><o:p></o:p></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+   <v:imagedata src="古武+2魂晶掉落机制.files/image001.png" o:title="halone"/>
+  </v:shape><![endif]-->
+                                <![if !vml]><img width=32 height=32 src="古武+2魂晶掉落机制.files/image001.png" v:shapes="_x0000_i1025">
+                                <![endif]>
+                                <o:p></o:p>
+                            </span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�;color:#FF33CC'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑;color:#FF33CC'>♀<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>ս���񡤹�����<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>战争神·哈罗妮<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   background:#00CCFF;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>冰<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>��һ��<span lang=EN-US>(1</span>��<span lang=EN-US>)<o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>星一月<span lang=EN-US>(1</span>月<span lang=EN-US>)<o:p></o:p></span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>ħЫ��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>魔蝎座<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow:2'>
+                <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
   solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
-  font-family:΢���ź�'><!--[if gte vml 1]><v:shape id="_x0000_i1026" type="#_x0000_t75"
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:微软雅黑'>
+                                <!--[if gte vml 1]><v:shape id="_x0000_i1026" type="#_x0000_t75"
    style='width:24pt;height:24pt'>
-   <v:imagedata src="����+2�꾧�������.files/image002.png" o:title="menphina"/>
-  </v:shape><![endif]--><![if !vml]><img width=32 height=32
-  src="����+2�꾧�������.files/image002.png" v:shapes="_x0000_i1026"><![endif]><o:p></o:p></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+   <v:imagedata src="古武+2魂晶掉落机制.files/image002.png" o:title="menphina"/>
+  </v:shape><![endif]-->
+                                <![if !vml]><img width=32 height=32 src="古武+2魂晶掉落机制.files/image002.png" v:shapes="_x0000_i1026">
+                                <![endif]>
+                                <o:p></o:p>
+                            </span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�;color:#FF33CC'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑;color:#FF33CC'>♀<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>�Ȱ���÷�����<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>慈爱神·梅茵菲娜<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   background:#00CCFF;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>冰<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>��һ��<span lang=EN-US>(2</span>��<span lang=EN-US>)<o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>灵一月<span lang=EN-US>(2</span>月<span lang=EN-US>)<o:p></o:p></span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>ˮƿ��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3'>
-  <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>水瓶座<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow:3'>
+                <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
   solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
-  font-family:΢���ź�'><!--[if gte vml 1]><v:shape id="_x0000_i1027" type="#_x0000_t75"
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:微软雅黑'>
+                                <!--[if gte vml 1]><v:shape id="_x0000_i1027" type="#_x0000_t75"
    style='width:24pt;height:24pt'>
-   <v:imagedata src="����+2�꾧�������.files/image003.png" o:title="thaliak"/>
-  </v:shape><![endif]--><![if !vml]><img width=32 height=32
-  src="����+2�꾧�������.files/image003.png" v:shapes="_x0000_i1027"><![endif]><o:p></o:p></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+   <v:imagedata src="古武+2魂晶掉落机制.files/image003.png" o:title="thaliak"/>
+  </v:shape><![endif]-->
+                                <![if !vml]><img width=32 height=32 src="古武+2魂晶掉落机制.files/image003.png" v:shapes="_x0000_i1027">
+                                <![endif]>
+                                <o:p></o:p>
+                            </span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�;color:#3366FF'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑;color:#3366FF'>♂<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>֪ʶ��ɳ���ǿ�<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>知识神·沙利亚克<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   background:#6699FF;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>ˮ<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>水<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>�Ƕ���<span lang=EN-US>(3</span>��<span lang=EN-US>)<o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>星二月<span lang=EN-US>(3</span>月<span lang=EN-US>)<o:p></o:p></span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>˫����<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:4'>
-  <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>双鱼座<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow:4'>
+                <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
   solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
-  font-family:΢���ź�'><!--[if gte vml 1]><v:shape id="_x0000_i1028" type="#_x0000_t75"
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:微软雅黑'>
+                                <!--[if gte vml 1]><v:shape id="_x0000_i1028" type="#_x0000_t75"
    style='width:24pt;height:24pt'>
-   <v:imagedata src="����+2�꾧�������.files/image004.png" o:title="nymeia"/>
-  </v:shape><![endif]--><![if !vml]><img width=32 height=32
-  src="����+2�꾧�������.files/image004.png" v:shapes="_x0000_i1028"><![endif]><o:p></o:p></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+   <v:imagedata src="古武+2魂晶掉落机制.files/image004.png" o:title="nymeia"/>
+  </v:shape><![endif]-->
+                                <![if !vml]><img width=32 height=32 src="古武+2魂晶掉落机制.files/image004.png" v:shapes="_x0000_i1028">
+                                <![endif]>
+                                <o:p></o:p>
+                            </span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�;color:#FF33CC'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑;color:#FF33CC'>♀<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>������������<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>命运神·妮美雅<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   background:#6699FF;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>ˮ<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>水<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>�����<span lang=EN-US>(4</span>��<span lang=EN-US>)<o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>灵二月<span lang=EN-US>(4</span>月<span lang=EN-US>)<o:p></o:p></span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>������<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:5'>
-  <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>白羊座<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow:5'>
+                <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
   solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
-  font-family:΢���ź�'><!--[if gte vml 1]><v:shape id="_x0000_i1029" type="#_x0000_t75"
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:微软雅黑'>
+                                <!--[if gte vml 1]><v:shape id="_x0000_i1029" type="#_x0000_t75"
    style='width:24pt;height:24pt'>
-   <v:imagedata src="����+2�꾧�������.files/image005.png" o:title="llymlaen"/>
-  </v:shape><![endif]--><![if !vml]><img width=32 height=32
-  src="����+2�꾧�������.files/image005.png" v:shapes="_x0000_i1029"><![endif]><o:p></o:p></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+   <v:imagedata src="古武+2魂晶掉落机制.files/image005.png" o:title="llymlaen"/>
+  </v:shape><![endif]-->
+                                <![if !vml]><img width=32 height=32 src="古武+2魂晶掉落机制.files/image005.png" v:shapes="_x0000_i1029">
+                                <![endif]>
+                                <o:p></o:p>
+                            </span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�;color:#FF33CC'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑;color:#FF33CC'>♀<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>��������ķ����<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>海洋神·利姆莱茵<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   background:#00CC00;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>风<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>������<span lang=EN-US>(5</span>��<span lang=EN-US>)<o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>星三月<span lang=EN-US>(5</span>月<span lang=EN-US>)<o:p></o:p></span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>��ţ��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:6'>
-  <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>金牛座<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow:6'>
+                <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
   solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
-  font-family:΢���ź�'><!--[if gte vml 1]><v:shape id="_x0000_i1030" type="#_x0000_t75"
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:微软雅黑'>
+                                <!--[if gte vml 1]><v:shape id="_x0000_i1030" type="#_x0000_t75"
    style='width:24pt;height:24pt'>
-   <v:imagedata src="����+2�꾧�������.files/image006.png" o:title="oschon"/>
-  </v:shape><![endif]--><![if !vml]><img width=32 height=32
-  src="����+2�꾧�������.files/image006.png" v:shapes="_x0000_i1030"><![endif]><o:p></o:p></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+   <v:imagedata src="古武+2魂晶掉落机制.files/image006.png" o:title="oschon"/>
+  </v:shape><![endif]-->
+                                <![if !vml]><img width=32 height=32 src="古武+2魂晶掉落机制.files/image006.png" v:shapes="_x0000_i1030">
+                                <![endif]>
+                                <o:p></o:p>
+                            </span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�;color:#3366FF'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑;color:#3366FF'>♂<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>�����񡤰��ް�<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>放浪神·奥修昂<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   background:#00CC00;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>风<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>������<span lang=EN-US>(6</span>��<span lang=EN-US>)<o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>灵三月<span lang=EN-US>(6</span>月<span lang=EN-US>)<o:p></o:p></span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>˫����<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:7'>
-  <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>双子座<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow:7'>
+                <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
   solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
-  font-family:΢���ź�'><!--[if gte vml 1]><v:shape id="_x0000_i1031" type="#_x0000_t75"
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:微软雅黑'>
+                                <!--[if gte vml 1]><v:shape id="_x0000_i1031" type="#_x0000_t75"
    style='width:24pt;height:24pt'>
-   <v:imagedata src="����+2�꾧�������.files/image007.png" o:title="byregot"/>
-  </v:shape><![endif]--><![if !vml]><img width=32 height=32
-  src="����+2�꾧�������.files/image007.png" v:shapes="_x0000_i1031"><![endif]><o:p></o:p></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+   <v:imagedata src="古武+2魂晶掉落机制.files/image007.png" o:title="byregot"/>
+  </v:shape><![endif]-->
+                                <![if !vml]><img width=32 height=32 src="古武+2魂晶掉落机制.files/image007.png" v:shapes="_x0000_i1031">
+                                <![endif]>
+                                <o:p></o:p>
+                            </span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�;color:#3366FF'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑;color:#3366FF'>♂<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>�����񡤱ȶ���<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>工艺神·比尔格<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   background:#CC66FF;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>雷<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>������<span lang=EN-US>(7</span>��<span lang=EN-US>)<o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>星四月<span lang=EN-US>(7</span>月<span lang=EN-US>)<o:p></o:p></span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>��з��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:8'>
-  <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>巨蟹座<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow:8'>
+                <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
   solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
-  font-family:΢���ź�'><!--[if gte vml 1]><v:shape id="_x0000_i1032" type="#_x0000_t75"
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:微软雅黑'>
+                                <!--[if gte vml 1]><v:shape id="_x0000_i1032" type="#_x0000_t75"
    style='width:24pt;height:24pt'>
-   <v:imagedata src="����+2�꾧�������.files/image008.png" o:title="rhalgr"/>
-  </v:shape><![endif]--><![if !vml]><img width=32 height=32
-  src="����+2�꾧�������.files/image008.png" v:shapes="_x0000_i1032"><![endif]><o:p></o:p></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+   <v:imagedata src="古武+2魂晶掉落机制.files/image008.png" o:title="rhalgr"/>
+  </v:shape><![endif]-->
+                                <![if !vml]><img width=32 height=32 src="古武+2魂晶掉落机制.files/image008.png" v:shapes="_x0000_i1032">
+                                <![endif]>
+                                <o:p></o:p>
+                            </span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�;color:#3366FF'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑;color:#3366FF'>♂<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>�ƻ���������<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>破坏神·拉尔戈<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   background:#CC66FF;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>雷<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>������<span lang=EN-US>(8</span>��<span lang=EN-US>)<o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>灵四月<span lang=EN-US>(8</span>月<span lang=EN-US>)<o:p></o:p></span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>ʨ����<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:9'>
-  <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>狮子座<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow:9'>
+                <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
   solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
-  font-family:΢���ź�'><!--[if gte vml 1]><v:shape id="_x0000_i1033" type="#_x0000_t75"
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:微软雅黑'>
+                                <!--[if gte vml 1]><v:shape id="_x0000_i1033" type="#_x0000_t75"
    style='width:24pt;height:24pt'>
-   <v:imagedata src="����+2�꾧�������.files/image009.png" o:title="azeyma"/>
-  </v:shape><![endif]--><![if !vml]><img width=32 height=32
-  src="����+2�꾧�������.files/image009.png" v:shapes="_x0000_i1033"><![endif]><o:p></o:p></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+   <v:imagedata src="古武+2魂晶掉落机制.files/image009.png" o:title="azeyma"/>
+  </v:shape><![endif]-->
+                                <![if !vml]><img width=32 height=32 src="古武+2魂晶掉落机制.files/image009.png" v:shapes="_x0000_i1033">
+                                <![endif]>
+                                <o:p></o:p>
+                            </span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�;color:#FF33CC'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑;color:#FF33CC'>♀<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>�����񡤰�����<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>审判神·阿泽玛<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   background:red;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>火<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>������<span lang=EN-US>(9</span>��<span lang=EN-US>)<o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>星五月<span lang=EN-US>(9</span>月<span lang=EN-US>)<o:p></o:p></span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>��Ů��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:10'>
-  <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>处女座<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow:10'>
+                <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
   solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
-  font-family:΢���ź�'><!--[if gte vml 1]><v:shape id="_x0000_i1034" type="#_x0000_t75"
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:微软雅黑'>
+                                <!--[if gte vml 1]><v:shape id="_x0000_i1034" type="#_x0000_t75"
    style='width:24pt;height:24pt'>
-   <v:imagedata src="����+2�꾧�������.files/image008.png" o:title="rhalgr"/>
-  </v:shape><![endif]--><![if !vml]><img width=32 height=32
-  src="����+2�꾧�������.files/image008.png" v:shapes="_x0000_i1034"><![endif]><o:p></o:p></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+   <v:imagedata src="古武+2魂晶掉落机制.files/image008.png" o:title="rhalgr"/>
+  </v:shape><![endif]-->
+                                <![if !vml]><img width=32 height=32 src="古武+2魂晶掉落机制.files/image008.png" v:shapes="_x0000_i1034">
+                                <![endif]>
+                                <o:p></o:p>
+                            </span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�;color:#3366FF'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑;color:#3366FF'>♂<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>��ó���ɶ�����<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>商贸神·纳尔札尔<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   background:red;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>火<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>������<span lang=EN-US>(10</span>��<span lang=EN-US>)<o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>灵五月<span lang=EN-US>(10</span>月<span lang=EN-US>)<o:p></o:p></span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>�����<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:11'>
-  <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>天秤座<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow:11'>
+                <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
   solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
-  font-family:΢���ź�'><!--[if gte vml 1]><v:shape id="_x0000_i1035" type="#_x0000_t75"
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:微软雅黑'>
+                                <!--[if gte vml 1]><v:shape id="_x0000_i1035" type="#_x0000_t75"
    style='width:24pt;height:24pt'>
-   <v:imagedata src="����+2�꾧�������.files/image010.png" o:title="nophica"/>
-  </v:shape><![endif]--><![if !vml]><img width=32 height=32
-  src="����+2�꾧�������.files/image010.png" v:shapes="_x0000_i1035"><![endif]><o:p></o:p></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+   <v:imagedata src="古武+2魂晶掉落机制.files/image010.png" o:title="nophica"/>
+  </v:shape><![endif]-->
+                                <![if !vml]><img width=32 height=32 src="古武+2魂晶掉落机制.files/image010.png" v:shapes="_x0000_i1035">
+                                <![endif]>
+                                <o:p></o:p>
+                            </span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�;color:#FF33CC'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑;color:#FF33CC'>♀<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>������ŵ�ƿ�<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>丰饶神·诺菲卡<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   background:#FFCC00;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>土<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>������<span lang=EN-US>(11</span>��<span lang=EN-US>)<o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>星六月<span lang=EN-US>(11</span>月<span lang=EN-US>)<o:p></o:p></span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>��Ы��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:12;mso-yfti-lastrow:yes'>
-  <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>天蝎座<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow:12;mso-yfti-lastrow:yes'>
+                <td style='border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
   solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
-  font-family:΢���ź�'><!--[if gte vml 1]><v:shape id="_x0000_i1036" type="#_x0000_t75"
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:微软雅黑'>
+                                <!--[if gte vml 1]><v:shape id="_x0000_i1036" type="#_x0000_t75"
    style='width:24pt;height:24pt'>
-   <v:imagedata src="����+2�꾧�������.files/image011.png" o:title="althyk"/>
-  </v:shape><![endif]--><![if !vml]><img width=32 height=32
-  src="����+2�꾧�������.files/image011.png" v:shapes="_x0000_i1036"><![endif]><o:p></o:p></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+   <v:imagedata src="古武+2魂晶掉落机制.files/image011.png" o:title="althyk"/>
+  </v:shape><![endif]-->
+                                <![if !vml]><img width=32 height=32 src="古武+2魂晶掉落机制.files/image011.png" v:shapes="_x0000_i1036">
+                                <![endif]>
+                                <o:p></o:p>
+                            </span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�;color:#3366FF'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑;color:#3366FF'>♂<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>�����񡤰�������<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>光阴神·阿尔基克<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   background:#FFCC00;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>土<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>������<span lang=EN-US>(12</span>��<span lang=EN-US>)<o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>灵六月<span lang=EN-US>(12</span>月<span lang=EN-US>)<o:p></o:p></span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
   mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b
-  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
-  ΢���ź�'>������<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
- </tr>
-</table>
+                    <p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  微软雅黑'>射手座<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+            </tr>
+        </table>
 
-<p class=MsoNormal><span style='font-size:12.0pt;font-family:΢���ź�'>���ȣ��꾧�ĵ���ص��ǹ̶���<span
-lang=EN-US>(</span>����ص�����������˵��<span lang=EN-US>)</span>���꾧��һ����������<span
-lang=EN-US>(</span>�ܵ�<span lang=EN-US>)</span>��������<span style='color:red'>��Ӧ��ʱ��</span>��ȥ��<span
-style='color:red'>��Ӧ����</span>�Ļ꾧���ǻ�<span style='color:red'>�������ߵ���</span>�ġ����⣬����<span
-lang=EN-US>FATE</span>��ý��ơ����ơ�ͭ�ƶ��ǿ��Դ���꾧�ģ�����ò�ƴ򵽽��ƻ���ʻ�����ơ�ͭ�Ƶĸ�<span lang=EN-US>(</span>����֤<span
-lang=EN-US>)</span>��<span lang=EN-US><o:p></o:p></span></span></p>
+        <p class=MsoNormal><span style='font-size:12.0pt;font-family:微软雅黑'>首先，魂晶的掉落地点是固定的<span lang=EN-US>(</span>掉落地点详见你的任务说明<span lang=EN-US>)</span>，魂晶有一个基本掉率<span lang=EN-US>(</span>很低<span lang=EN-US>)</span>，但是在<span style='color:red'>对应的时间</span>，去打<span style='color:red'>对应属性</span>的魂晶，是会<span style='color:red'>大幅度提高掉率</span>的。另外，不管<span lang=EN-US>FATE</span>获得金牌、银牌、铜牌都是可以打出魂晶的，但是貌似打到金牌获得率会比银牌、铜牌的高<span lang=EN-US>(</span>待论证<span lang=EN-US>)</span>。<span lang=EN-US>
+                    <o:p></o:p>
+                </span></span></p>
 
-<p class=MsoNormal><span style='font-size:12.0pt;font-family:΢���ź�;color:#3366FF'>���磺�����Ҫ��Ů���Ļ꾧����Ů���ڵ���ʱ���Ӧ����Ҫ��<span
-lang=EN-US>9</span>�·ݣ�����Ϸ���<span lang=EN-US>9</span>�·��������£������µ������ǻ���ô������Ϸ��������»��ǰ������ɭ����ɭ��ȥˢ<span
-lang=EN-US>FATE</span>�Ļ����ͻ�ǳ�����ˢ���꾧������Ȼ����<span lang=EN-US>100%</span>��<span
-lang=EN-US><o:p></o:p></span></span></p>
+        <p class=MsoNormal><span style='font-size:12.0pt;font-family:微软雅黑;color:#3366FF'>例如：如果你要打处女座的魂晶，处女座在地球时间对应的主要是<span lang=EN-US>9</span>月份，而游戏里的<span lang=EN-US>9</span>月份是灵五月，灵五月的属性是火，那么你在游戏里的灵五月火刻前往黑衣森中央森林去刷<span lang=EN-US>FATE</span>的话，就会非常容易刷出魂晶，但依然不是<span lang=EN-US>100%</span>。<span lang=EN-US>
+                    <o:p></o:p>
+                </span></span></p>
 
-<p class=MsoNormal><span style='font-size:12.0pt;font-family:΢���ź�;color:red'>ע�⣬��Ϸ��ÿ����<span
-lang=EN-US>8</span>�죬����<span lang=EN-US>6</span>��������ԣ������������������Ե��Ǽ��պ��鼫�գ�����������ȥˢ�κλ꾧����û�С��ա����Ķ�����ʼӳɵġ�<span
-lang=EN-US><o:p></o:p></span></span></p>
+        <p class=MsoNormal><span style='font-size:12.0pt;font-family:微软雅黑;color:red'>注意，游戏里每周是<span lang=EN-US>8</span>天，其中<span lang=EN-US>6</span>天带有属性，另外两天则是无属性的星极日和灵极日，在这两天里去刷任何魂晶都是没有“日”给的额外掉率加成的。<span lang=EN-US>
+                    <o:p></o:p>
+                </span></span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;font-family:΢���ź�'><o:p>&nbsp;</o:p></span></p>
+        <p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;font-family:微软雅黑'>
+                <o:p>&nbsp;</o:p>
+            </span></p>
 
-<p class=MsoNormal><span style='font-size:12.0pt;font-family:΢���ź�'>�����˰�ŷ��������ļ�ʱ���򣬿��԰�������õİ���ʱ�䣬׼ʱ����Ч��������Ե�ȥˢĳһ���꾧������ֻ��äĿ��Ͷ�����ʱ��ˢ����<span
-lang=EN-US>FATE</span>��<span lang=EN-US><o:p></o:p></span></span></p>
+        <p class=MsoNormal><span style='font-size:12.0pt;font-family:微软雅黑'>掌握了艾欧泽亚世界的计时规则，可以帮助你更好的把握时间，准时、高效、有针对性的去刷某一个魂晶，而不只是盲目的投入大量时间刷大量<span lang=EN-US>FATE</span>。<span lang=EN-US>
+                    <o:p></o:p>
+                </span></span></p>
 
-<p class=MsoNormal><span style='font-size:12.0pt;font-family:΢���ź�'>��ŷ������<span
-lang=EN-US>1</span>�컻��ɵ���ʱ��Ϊ<span lang=EN-US>70</span>���ӣ���Ϸ��������仯ÿ<span
-lang=EN-US>8</span>Сʱ����һ�Σ�����ɵ���ʱ��Ϊÿ<span lang=EN-US>23</span>��<span lang=EN-US>20</span>��仯һ�Ρ�<span
-lang=EN-US><o:p></o:p></span></span></p>
+        <p class=MsoNormal><span style='font-size:12.0pt;font-family:微软雅黑'>艾欧泽亚里<span lang=EN-US>1</span>天换算成地球时间为<span lang=EN-US>70</span>分钟，游戏里的天气变化每<span lang=EN-US>8</span>小时进行一次，换算成地球时间为每<span lang=EN-US>23</span>分<span lang=EN-US>20</span>秒变化一次。<span lang=EN-US>
+                    <o:p></o:p>
+                </span></span></p>
 
-<p class=MsoNormal><span style='font-size:12.0pt;font-family:΢���ź�'>�����ǹ������ǹ��ʷ�����ʱ��׼��ȡ�Ķ��������׼ʱ��<span
-lang=EN-US>(UTC)</span>�������Ϸ�������Ͻ��л�����ʾ�ķ�����ʱ�伴Ϊ<span lang=EN-US>UTC</span>�����������ϣ����շ��꾧��ʱ����ʱ�����<span
-lang=EN-US>1</span>��Сʱ��������Ϊ������ʱ���á�<span lang=EN-US><o:p></o:p></span></span></p>
+        <p class=MsoNormal><span style='font-size:12.0pt;font-family:微软雅黑'>不论是国服还是国际服，计时标准采取的都是世界标准时间<span lang=EN-US>(UTC)</span>，点击游戏界面右上角切换，显示的服务器时间即为<span lang=EN-US>UTC</span>。所以理论上，将日服魂晶计时器的时间调慢<span lang=EN-US>1</span>个小时，即可作为国服计时器用。<span lang=EN-US>
+                    <o:p></o:p>
+                </span></span></p>
 
-<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
- style='background:#CCCCFF;border-collapse:collapse;border:none;mso-border-alt:
+        <table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 style='background:#CCCCFF;border-collapse:collapse;border:none;mso-border-alt:
  solid #333333 .75pt;mso-padding-alt:0cm 0cm 0cm 0cm;mso-border-insideh:.75pt solid #333333;
  mso-border-insidev:.75pt solid #333333'>
- <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
-  <td style='border:solid #333333 1.0pt;mso-border-alt:solid #333333 .75pt;
+            <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+                <td style='border:solid #333333 1.0pt;mso-border-alt:solid #333333 .75pt;
   padding:.85pt 4.2pt .85pt 4.2pt'>
-  <p class=MsoNormal align=left style='text-align:left;line-height:200%;
-  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span
-  style='font-size:14.0pt;line-height:200%;font-family:΢���ź�;mso-bidi-font-family:
-  ����;color:purple;mso-font-kerning:0pt'>��ŷ��������<span lang=EN-US>1</span>Сʱ<span
-  lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border:solid #333333 1.0pt;border-left:none;mso-border-left-alt:
+                    <p class=MsoNormal align=left style='text-align:left;line-height:200%;
+  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:200%;font-family:微软雅黑;mso-bidi-font-family:
+  宋体;color:purple;mso-font-kerning:0pt'>艾欧泽亚世界<span lang=EN-US>1</span>小时<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border:solid #333333 1.0pt;border-left:none;mso-border-left-alt:
   solid #333333 .75pt;mso-border-alt:solid #333333 .75pt;padding:.85pt 4.2pt .85pt 4.2pt'>
-  <p class=MsoNormal align=left style='text-align:left;line-height:200%;
-  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span
-  style='font-size:14.0pt;line-height:200%;font-family:΢���ź�;mso-bidi-font-family:
-  ����;color:purple;mso-font-kerning:0pt'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border:solid #333333 1.0pt;border-left:none;mso-border-left-alt:
+                    <p class=MsoNormal align=left style='text-align:left;line-height:200%;
+  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:200%;font-family:微软雅黑;mso-bidi-font-family:
+  宋体;color:purple;mso-font-kerning:0pt'>＝<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border:solid #333333 1.0pt;border-left:none;mso-border-left-alt:
   solid #333333 .75pt;mso-border-alt:solid #333333 .75pt;padding:.85pt 4.2pt .85pt 4.2pt'>
-  <p class=MsoNormal align=left style='text-align:left;line-height:200%;
-  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span
-  style='font-size:14.0pt;line-height:200%;font-family:΢���ź�;mso-bidi-font-family:
-  ����;color:purple;mso-font-kerning:0pt'>����ʱ��<span lang=EN-US>2</span>��<span
-  lang=EN-US>55</span>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:1'>
-  <td style='border:solid #333333 1.0pt;border-top:none;mso-border-top-alt:
+                    <p class=MsoNormal align=left style='text-align:left;line-height:200%;
+  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:200%;font-family:微软雅黑;mso-bidi-font-family:
+  宋体;color:purple;mso-font-kerning:0pt'>地球时间<span lang=EN-US>2</span>分<span lang=EN-US>55</span>秒<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow:1'>
+                <td style='border:solid #333333 1.0pt;border-top:none;mso-border-top-alt:
   solid #333333 .75pt;mso-border-alt:solid #333333 .75pt;padding:.85pt 4.2pt .85pt 4.2pt'>
-  <p class=MsoNormal align=left style='text-align:left;line-height:200%;
-  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span
-  style='font-size:14.0pt;line-height:200%;font-family:΢���ź�;mso-bidi-font-family:
-  ����;color:purple;mso-font-kerning:0pt'>��ŷ��������<span lang=EN-US>1</span>��<span
-  lang=EN-US> (</span>��Ϸ��<span lang=EN-US>4</span>Сʱ<span lang=EN-US>)<o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid #333333 1.0pt;
+                    <p class=MsoNormal align=left style='text-align:left;line-height:200%;
+  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:200%;font-family:微软雅黑;mso-bidi-font-family:
+  宋体;color:purple;mso-font-kerning:0pt'>艾欧泽亚世界<span lang=EN-US>1</span>刻<span lang=EN-US> (</span>游戏内<span lang=EN-US>4</span>小时<span lang=EN-US>)<o:p></o:p></span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid #333333 1.0pt;
   border-right:solid #333333 1.0pt;mso-border-top-alt:solid #333333 .75pt;
   mso-border-left-alt:solid #333333 .75pt;mso-border-alt:solid #333333 .75pt;
   padding:.85pt 4.2pt .85pt 4.2pt'>
-  <p class=MsoNormal align=left style='text-align:left;line-height:200%;
-  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span
-  style='font-size:14.0pt;line-height:200%;font-family:΢���ź�;mso-bidi-font-family:
-  ����;color:purple;mso-font-kerning:0pt'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid #333333 1.0pt;
+                    <p class=MsoNormal align=left style='text-align:left;line-height:200%;
+  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:200%;font-family:微软雅黑;mso-bidi-font-family:
+  宋体;color:purple;mso-font-kerning:0pt'>＝<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid #333333 1.0pt;
   border-right:solid #333333 1.0pt;mso-border-top-alt:solid #333333 .75pt;
   mso-border-left-alt:solid #333333 .75pt;mso-border-alt:solid #333333 .75pt;
   padding:.85pt 4.2pt .85pt 4.2pt'>
-  <p class=MsoNormal align=left style='text-align:left;line-height:200%;
-  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span
-  style='font-size:14.0pt;line-height:200%;font-family:΢���ź�;mso-bidi-font-family:
-  ����;color:purple;mso-font-kerning:0pt'>����ʱ��<span lang=EN-US>11</span>��<span
-  lang=EN-US>30</span>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2'>
-  <td style='border:solid #333333 1.0pt;border-top:none;mso-border-top-alt:
+                    <p class=MsoNormal align=left style='text-align:left;line-height:200%;
+  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:200%;font-family:微软雅黑;mso-bidi-font-family:
+  宋体;color:purple;mso-font-kerning:0pt'>地球时间<span lang=EN-US>11</span>分<span lang=EN-US>30</span>秒<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow:2'>
+                <td style='border:solid #333333 1.0pt;border-top:none;mso-border-top-alt:
   solid #333333 .75pt;mso-border-alt:solid #333333 .75pt;padding:.85pt 4.2pt .85pt 4.2pt'>
-  <p class=MsoNormal align=left style='text-align:left;line-height:200%;
-  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span
-  style='font-size:14.0pt;line-height:200%;font-family:΢���ź�;mso-bidi-font-family:
-  ����;color:purple;mso-font-kerning:0pt'>��ŷ��������<span lang=EN-US>1</span>��<span
-  lang=EN-US> (</span>��Ϸ��<span lang=EN-US>24</span>Сʱ<span lang=EN-US>)<o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid #333333 1.0pt;
+                    <p class=MsoNormal align=left style='text-align:left;line-height:200%;
+  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:200%;font-family:微软雅黑;mso-bidi-font-family:
+  宋体;color:purple;mso-font-kerning:0pt'>艾欧泽亚世界<span lang=EN-US>1</span>天<span lang=EN-US> (</span>游戏内<span lang=EN-US>24</span>小时<span lang=EN-US>)<o:p></o:p></span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid #333333 1.0pt;
   border-right:solid #333333 1.0pt;mso-border-top-alt:solid #333333 .75pt;
   mso-border-left-alt:solid #333333 .75pt;mso-border-alt:solid #333333 .75pt;
   padding:.85pt 4.2pt .85pt 4.2pt'>
-  <p class=MsoNormal align=left style='text-align:left;line-height:200%;
-  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span
-  style='font-size:14.0pt;line-height:200%;font-family:΢���ź�;mso-bidi-font-family:
-  ����;color:purple;mso-font-kerning:0pt'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid #333333 1.0pt;
+                    <p class=MsoNormal align=left style='text-align:left;line-height:200%;
+  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:200%;font-family:微软雅黑;mso-bidi-font-family:
+  宋体;color:purple;mso-font-kerning:0pt'>＝<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid #333333 1.0pt;
   border-right:solid #333333 1.0pt;mso-border-top-alt:solid #333333 .75pt;
   mso-border-left-alt:solid #333333 .75pt;mso-border-alt:solid #333333 .75pt;
   padding:.85pt 4.2pt .85pt 4.2pt'>
-  <p class=MsoNormal align=left style='text-align:left;line-height:200%;
-  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span
-  style='font-size:14.0pt;line-height:200%;font-family:΢���ź�;mso-bidi-font-family:
-  ����;color:purple;mso-font-kerning:0pt'>����ʱ��<span lang=EN-US>70</span>��<span
-  lang=EN-US> (1</span>Сʱ<span lang=EN-US>10</span>��<span lang=EN-US>)<o:p></o:p></span></span></b></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:3'>
-  <td style='border:solid #333333 1.0pt;border-top:none;mso-border-top-alt:
+                    <p class=MsoNormal align=left style='text-align:left;line-height:200%;
+  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:200%;font-family:微软雅黑;mso-bidi-font-family:
+  宋体;color:purple;mso-font-kerning:0pt'>地球时间<span lang=EN-US>70</span>分<span lang=EN-US> (1</span>小时<span lang=EN-US>10</span>分<span lang=EN-US>)<o:p></o:p></span></span></b></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow:3'>
+                <td style='border:solid #333333 1.0pt;border-top:none;mso-border-top-alt:
   solid #333333 .75pt;mso-border-alt:solid #333333 .75pt;padding:.85pt 4.2pt .85pt 4.2pt'>
-  <p class=MsoNormal align=left style='text-align:left;line-height:200%;
-  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span
-  style='font-size:14.0pt;line-height:200%;font-family:΢���ź�;mso-bidi-font-family:
-  ����;color:purple;mso-font-kerning:0pt'>��ŷ��������<span lang=EN-US>1</span>��<span
-  lang=EN-US> (</span>��Ϸ��<span lang=EN-US>8</span>��<span lang=EN-US>)<o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid #333333 1.0pt;
+                    <p class=MsoNormal align=left style='text-align:left;line-height:200%;
+  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:200%;font-family:微软雅黑;mso-bidi-font-family:
+  宋体;color:purple;mso-font-kerning:0pt'>艾欧泽亚世界<span lang=EN-US>1</span>周<span lang=EN-US> (</span>游戏内<span lang=EN-US>8</span>天<span lang=EN-US>)<o:p></o:p></span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid #333333 1.0pt;
   border-right:solid #333333 1.0pt;mso-border-top-alt:solid #333333 .75pt;
   mso-border-left-alt:solid #333333 .75pt;mso-border-alt:solid #333333 .75pt;
   padding:.85pt 4.2pt .85pt 4.2pt'>
-  <p class=MsoNormal align=left style='text-align:left;line-height:200%;
-  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span
-  style='font-size:14.0pt;line-height:200%;font-family:΢���ź�;mso-bidi-font-family:
-  ����;color:purple;mso-font-kerning:0pt'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid #333333 1.0pt;
+                    <p class=MsoNormal align=left style='text-align:left;line-height:200%;
+  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:200%;font-family:微软雅黑;mso-bidi-font-family:
+  宋体;color:purple;mso-font-kerning:0pt'>＝<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid #333333 1.0pt;
   border-right:solid #333333 1.0pt;mso-border-top-alt:solid #333333 .75pt;
   mso-border-left-alt:solid #333333 .75pt;mso-border-alt:solid #333333 .75pt;
   padding:.85pt 4.2pt .85pt 4.2pt'>
-  <p class=MsoNormal align=left style='text-align:left;line-height:200%;
-  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span
-  style='font-size:14.0pt;line-height:200%;font-family:΢���ź�;mso-bidi-font-family:
-  ����;color:purple;mso-font-kerning:0pt'>����ʱ��<span lang=EN-US>9</span>Сʱ<span
-  lang=EN-US>20</span>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:4'>
-  <td style='border:solid #333333 1.0pt;border-top:none;mso-border-top-alt:
+                    <p class=MsoNormal align=left style='text-align:left;line-height:200%;
+  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:200%;font-family:微软雅黑;mso-bidi-font-family:
+  宋体;color:purple;mso-font-kerning:0pt'>地球时间<span lang=EN-US>9</span>小时<span lang=EN-US>20</span>分<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow:4'>
+                <td style='border:solid #333333 1.0pt;border-top:none;mso-border-top-alt:
   solid #333333 .75pt;mso-border-alt:solid #333333 .75pt;padding:.85pt 4.2pt .85pt 4.2pt'>
-  <p class=MsoNormal align=left style='text-align:left;line-height:200%;
-  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span
-  style='font-size:14.0pt;line-height:200%;font-family:΢���ź�;mso-bidi-font-family:
-  ����;color:purple;mso-font-kerning:0pt'>��ŷ��������<span lang=EN-US>1</span>��<span
-  lang=EN-US> (</span>��Ϸ��<span lang=EN-US>32</span>��<span lang=EN-US>)<o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid #333333 1.0pt;
+                    <p class=MsoNormal align=left style='text-align:left;line-height:200%;
+  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:200%;font-family:微软雅黑;mso-bidi-font-family:
+  宋体;color:purple;mso-font-kerning:0pt'>艾欧泽亚世界<span lang=EN-US>1</span>月<span lang=EN-US> (</span>游戏内<span lang=EN-US>32</span>天<span lang=EN-US>)<o:p></o:p></span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid #333333 1.0pt;
   border-right:solid #333333 1.0pt;mso-border-top-alt:solid #333333 .75pt;
   mso-border-left-alt:solid #333333 .75pt;mso-border-alt:solid #333333 .75pt;
   padding:.85pt 4.2pt .85pt 4.2pt'>
-  <p class=MsoNormal align=left style='text-align:left;line-height:200%;
-  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span
-  style='font-size:14.0pt;line-height:200%;font-family:΢���ź�;mso-bidi-font-family:
-  ����;color:purple;mso-font-kerning:0pt'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid #333333 1.0pt;
+                    <p class=MsoNormal align=left style='text-align:left;line-height:200%;
+  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:200%;font-family:微软雅黑;mso-bidi-font-family:
+  宋体;color:purple;mso-font-kerning:0pt'>＝<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid #333333 1.0pt;
   border-right:solid #333333 1.0pt;mso-border-top-alt:solid #333333 .75pt;
   mso-border-left-alt:solid #333333 .75pt;mso-border-alt:solid #333333 .75pt;
   padding:.85pt 4.2pt .85pt 4.2pt'>
-  <p class=MsoNormal align=left style='text-align:left;line-height:200%;
-  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span
-  style='font-size:14.0pt;line-height:200%;font-family:΢���ź�;mso-bidi-font-family:
-  ����;color:purple;mso-font-kerning:0pt'>����ʱ��<span lang=EN-US>37</span>Сʱ<span
-  lang=EN-US>20</span>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:5;mso-yfti-lastrow:yes'>
-  <td style='border:solid #333333 1.0pt;border-top:none;mso-border-top-alt:
+                    <p class=MsoNormal align=left style='text-align:left;line-height:200%;
+  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:200%;font-family:微软雅黑;mso-bidi-font-family:
+  宋体;color:purple;mso-font-kerning:0pt'>地球时间<span lang=EN-US>37</span>小时<span lang=EN-US>20</span>分<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+            </tr>
+            <tr style='mso-yfti-irow:5;mso-yfti-lastrow:yes'>
+                <td style='border:solid #333333 1.0pt;border-top:none;mso-border-top-alt:
   solid #333333 .75pt;mso-border-alt:solid #333333 .75pt;padding:.85pt 4.2pt .85pt 4.2pt'>
-  <p class=MsoNormal align=left style='text-align:left;line-height:200%;
-  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span
-  style='font-size:14.0pt;line-height:200%;font-family:΢���ź�;mso-bidi-font-family:
-  ����;color:purple;mso-font-kerning:0pt'>��ŷ��������<span lang=EN-US>1</span>��<span
-  lang=EN-US> (</span>��Ϸ��<span lang=EN-US>384</span>��<span lang=EN-US>)<o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid #333333 1.0pt;
+                    <p class=MsoNormal align=left style='text-align:left;line-height:200%;
+  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:200%;font-family:微软雅黑;mso-bidi-font-family:
+  宋体;color:purple;mso-font-kerning:0pt'>艾欧泽亚世界<span lang=EN-US>1</span>年<span lang=EN-US> (</span>游戏内<span lang=EN-US>384</span>天<span lang=EN-US>)<o:p></o:p></span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid #333333 1.0pt;
   border-right:solid #333333 1.0pt;mso-border-top-alt:solid #333333 .75pt;
   mso-border-left-alt:solid #333333 .75pt;mso-border-alt:solid #333333 .75pt;
   padding:.85pt 4.2pt .85pt 4.2pt'>
-  <p class=MsoNormal align=left style='text-align:left;line-height:200%;
-  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span
-  style='font-size:14.0pt;line-height:200%;font-family:΢���ź�;mso-bidi-font-family:
-  ����;color:purple;mso-font-kerning:0pt'>��<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
-  <td style='border-top:none;border-left:none;border-bottom:solid #333333 1.0pt;
+                    <p class=MsoNormal align=left style='text-align:left;line-height:200%;
+  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:200%;font-family:微软雅黑;mso-bidi-font-family:
+  宋体;color:purple;mso-font-kerning:0pt'>＝<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+                <td style='border-top:none;border-left:none;border-bottom:solid #333333 1.0pt;
   border-right:solid #333333 1.0pt;mso-border-top-alt:solid #333333 .75pt;
   mso-border-left-alt:solid #333333 .75pt;mso-border-alt:solid #333333 .75pt;
   padding:.85pt 4.2pt .85pt 4.2pt'>
-  <p class=MsoNormal align=left style='text-align:left;line-height:200%;
-  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span
-  style='font-size:14.0pt;line-height:200%;font-family:΢���ź�;mso-bidi-font-family:
-  ����;color:purple;mso-font-kerning:0pt'>����ʱ��<span lang=EN-US>18</span>��<span
-  lang=EN-US>16</span>Сʱ<span lang=EN-US><o:p></o:p></span></span></b></p>
-  </td>
- </tr>
-</table>
+                    <p class=MsoNormal align=left style='text-align:left;line-height:200%;
+  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;line-height:200%;font-family:微软雅黑;mso-bidi-font-family:
+  宋体;color:purple;mso-font-kerning:0pt'>地球时间<span lang=EN-US>18</span>天<span lang=EN-US>16</span>小时<span lang=EN-US>
+                                    <o:p></o:p>
+                                </span></span></b></p>
+                </td>
+            </tr>
+        </table>
 
-<p class=MsoNormal><span style='font-size:12.0pt;font-family:΢���ź�'>ע���շ�<span
-lang=EN-US>WIKI</span>�ϼ���������˵����һ������Ϸ��ÿ���<span lang=EN-US>4</span>�̣�ÿ��<span
-lang=EN-US>6</span>Сʱ��ÿСʱ��Ӧһ�����ԣ�ÿ�̵�<span lang=EN-US>6</span>Сʱ���԰�<b
-style='mso-bidi-font-weight:normal'><span style='color:#339966'>��</span><span
-lang=EN-US>-&gt;</span><span style='color:#9933FF'>��</span><span lang=EN-US>-&gt;</span><span
-style='color:red'>��</span><span lang=EN-US>-&gt;</span><span style='color:#FF6600'>��</span><span
-lang=EN-US>-&gt;</span><span style='color:#00CCFF'>��</span><span lang=EN-US>-&gt;</span><span
-style='color:blue'>ˮ</span></b>��˳��仯��<b style='mso-bidi-font-weight:normal'><span
-lang=EN-US><o:p></o:p></span></b></span></p>
+        <p class=MsoNormal><span style='font-size:12.0pt;font-family:微软雅黑'>注：日服<span lang=EN-US>WIKI</span>上记载了两种说法，一种是游戏内每天分<span lang=EN-US>4</span>刻，每刻<span lang=EN-US>6</span>小时，每小时对应一种属性，每刻的<span lang=EN-US>6</span>小时属性按<b style='mso-bidi-font-weight:normal'><span style='color:#339966'>风</span><span lang=EN-US>-&gt;</span><span style='color:#9933FF'>雷</span><span lang=EN-US>-&gt;</span><span style='color:red'>火</span><span lang=EN-US>-&gt;</span><span style='color:#FF6600'>土</span><span lang=EN-US>-&gt;</span><span style='color:#00CCFF'>冰</span><span lang=EN-US>-&gt;</span><span style='color:blue'>水</span></b>的顺序变化。<b style='mso-bidi-font-weight:normal'><span lang=EN-US>
+                        <o:p></o:p>
+                    </span></b></span></p>
 
-<p class=MsoNormal><span style='font-size:12.0pt;font-family:΢���ź�'>��һ�֣�Ҳ���շ��꾧�����ʱ����������ȡ�������㷨������Ϸ��ÿ��<span
-lang=EN-US>6</span>�̣�ÿ��<span lang=EN-US>4</span>Сʱ��ÿ�̶�Ӧһ�����ԣ�ÿ���<span
-lang=EN-US>6</span>�����԰�<b style='mso-bidi-font-weight:normal'><span
-style='color:#00CCFF'>��</span></b><span lang=EN-US>-&gt;</span><b
-style='mso-bidi-font-weight:normal'><span style='color:blue'>ˮ</span></b><span
-lang=EN-US>-&gt;</span><b style='mso-bidi-font-weight:normal'><span
-style='color:#339966'>��</span><span lang=EN-US>-</span></b><span lang=EN-US>&gt;</span><b
-style='mso-bidi-font-weight:normal'><span style='color:#9933FF'>��</span></b><span
-lang=EN-US>-&gt;</span><b style='mso-bidi-font-weight:normal'><span
-style='color:red'>��</span></b><span lang=EN-US>-&gt;</span><b style='mso-bidi-font-weight:
-normal'><span style='color:#FF6600'>��</span></b>��˳��仯��<b style='mso-bidi-font-weight:
-normal'><span lang=EN-US style='color:red'>(</span><span style='color:red'>�����ӹ��������û꾧��ʱ��Ҳ���ø����㷨<span
-lang=EN-US>)</span></span></b><span lang=EN-US><o:p></o:p></span></span></p>
+        <p class=MsoNormal><span style='font-size:12.0pt;font-family:微软雅黑'>另一种，也是日服魂晶掉落计时器代码所采取的主流算法，是游戏内每天<span lang=EN-US>6</span>刻，每刻<span lang=EN-US>4</span>小时，每刻对应一种属性，每天的<span lang=EN-US>6</span>刻属性按<b style='mso-bidi-font-weight:normal'><span style='color:#00CCFF'>冰</span></b><span lang=EN-US>-&gt;</span><b style='mso-bidi-font-weight:normal'><span style='color:blue'>水</span></b><span lang=EN-US>-&gt;</span><b style='mso-bidi-font-weight:normal'><span style='color:#339966'>风</span><span lang=EN-US>-</span></b><span lang=EN-US>&gt;</span><b style='mso-bidi-font-weight:normal'><span style='color:#9933FF'>雷</span></b><span lang=EN-US>-&gt;</span><b style='mso-bidi-font-weight:normal'><span style='color:red'>火</span></b><span lang=EN-US>-&gt;</span><b style='mso-bidi-font-weight:
+normal'><span style='color:#FF6600'>土</span></b>的顺序变化。<b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='color:red'>(</span><span style='color:red'>本电子攻略书所用魂晶计时器也采用该种算法<span lang=EN-US>)</span></span></b><span lang=EN-US>
+                    <o:p></o:p>
+                </span></span></p>
 
-<p class=MsoNormal><span style='font-size:12.0pt;font-family:΢���ź�'>������������Ϸ��ʱ���ǿ�����ʱ�鿴���ģ����Բ�����������һ��˵����ֻҪ�������Ϸ�ڵ�ʱ�ӣ���<span
-lang=EN-US>A</span>���Ե��·ݣ�<span lang=EN-US>A</span>���Ե����ڣ�<span lang=EN-US>A</span>���ԵĿ̣�ȥ��<span
-lang=EN-US>A</span>���ԵĻ꾧�ͻ�ȽϺô�<span lang=EN-US><o:p></o:p></span></span></p>
+        <p class=MsoNormal><span style='font-size:12.0pt;font-family:微软雅黑'>不过，由于游戏内时间是可以随时查看到的，所以不管是上面哪一种说法，只要你根据游戏内的时钟，在<span lang=EN-US>A</span>属性的月份，<span lang=EN-US>A</span>属性的日期，<span lang=EN-US>A</span>属性的刻，去打<span lang=EN-US>A</span>属性的魂晶就会比较好打。<span lang=EN-US>
+                    <o:p></o:p>
+                </span></span></p>
 
-<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
-style='font-size:12.0pt;font-family:΢���ź�;color:yellow;background:purple;
-mso-highlight:purple'>����<span lang=EN-US>2.0</span>��Ϸ�汾ʱ������Ϸ���ǿ���ֱ�ӿ���<span
-lang=EN-US>x</span>��<span lang=EN-US>x</span>��<span lang=EN-US>x</span>��<span
-lang=EN-US>x</span>�̵ģ��������Ű汾���£�<span lang=EN-US>2.1</span>�����ڵİ汾���Ѿ��޷�ֱ������Ϸ�����ϵ�֪��ǰ��Ϸ����ľ���ʱ���ˣ�ֻ�ܴ����Ͻ��л��ɰ�ŷ����ʱ��<span
-lang=EN-US>ET xx:xx</span>��Ȼ���Լ������㡣���������޷�ֱ�ۿ�������Ϸϵͳ�ڲ�Ҳ���ڰ���������ͬ���ļ�ʱ�����꾧�����ʱ�������Ǹ�����һ��ʱ����Ϊ�㷨����д�ġ�<span
-lang=EN-US><o:p></o:p></span></span></b></p>
+        <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:微软雅黑;color:yellow;background:purple;
+mso-highlight:purple'>※在<span lang=EN-US>2.0</span>游戏版本时代，游戏内是可以直接看到<span lang=EN-US>x</span>年<span lang=EN-US>x</span>月<span lang=EN-US>x</span>日<span lang=EN-US>x</span>刻的，但是随着版本更新，<span lang=EN-US>2.1</span>至现在的版本，已经无法直接在游戏界面上得知当前游戏世界的具体时间了，只能从右上角切换成艾欧泽亚时间<span lang=EN-US>ET xx:xx</span>，然后自己再推算。不过即便无法直观看到，游戏系统内部也是在暗暗进行着同样的计时，而魂晶掉落计时器则正是根据这一计时规律为算法所编写的。<span lang=EN-US>
+                        <o:p></o:p>
+                    </span></span></b></p>
 
-<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
-style='font-size:12.0pt;font-family:΢���ź�;color:yellow;background:purple;
-mso-highlight:purple'>��ĳЩ��ʱ�����ܻ���ɾ�������ֵ�������ʾ�������Ӧһ������Ϊ���<span lang=EN-US>5%</span>����Ӧ����Ϊ<span
-lang=EN-US>10%</span>��������ָ��ʲ��ǹٷ����ݣ�����û�о�����֤��������ۣ�������Ϊ�����ο�����������ζ����<span
-lang=EN-US>10%</span>ʱ����ˢ<span lang=EN-US>10</span>��<span lang=EN-US>FATE</span>���ܴ���������ݹ��ʷ�����ͳ�ƺ�Ľ����֪��ʵ�ʵ��ʵ���֮ǰ�����<span
-lang=EN-US>5%</span>��<span lang=EN-US>10%</span>�ĵ��ʡ�</span></b><b
-style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
-font-family:΢���ź�;color:blue'><o:p></o:p></span></b></p>
+        <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:微软雅黑;color:yellow;background:purple;
+mso-highlight:purple'>※某些计时器可能会采纳具体的数字掉率来表示，比如对应一项属性为提高<span lang=EN-US>5%</span>，对应两项为<span lang=EN-US>10%</span>，这个数字概率并非官方数据，而是没有经过验证的玩家推论，可以作为心理参考，但并不意味着在<span lang=EN-US>10%</span>时，你刷<span lang=EN-US>10</span>次<span lang=EN-US>FATE</span>就能打出来，根据国际服数据统计后的结果得知，实际掉率低于之前估算的<span lang=EN-US>5%</span>、<span lang=EN-US>10%</span>的掉率。</span></b><b style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+font-family:微软雅黑;color:blue'>
+                    <o:p></o:p>
+                </span></b></p>
 
-<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
-style='font-size:12.0pt;font-family:΢���ź�;color:yellow;background:purple;
-mso-highlight:purple'>��Ϊ������֮�ӣ�����������������鹥�����ڽ��Ա��ص�������������ʾ�����ݡ�</span></b><b
-style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
-font-family:΢���ź�;color:yellow'><o:p></o:p></span></b></p>
+        <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:微软雅黑;color:yellow;background:purple;
+mso-highlight:purple'>※为避免误导之嫌，稳妥起见，本电子书攻略书内将以保守的文字描述来表示、形容。</span></b><b style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+font-family:微软雅黑;color:yellow'>
+                    <o:p></o:p>
+                </span></b></p>
 
-</div>
+    </div>
 
 </body>
 
