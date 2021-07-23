@@ -1,0 +1,26 @@
+{
+    "name": "FFXIV_ARR_GuideBook_CN",
+    "version": "1.0.0",
+    "description": "最终幻想14电子攻略书ver3.1.chm",
+    "main": "index.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "server": "live-server ./docs --port=8181 --host=localhost --entry-file=index.htm"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/15x15G/FFXIV_ARR_GuideBook_CN.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/15x15G/FFXIV_ARR_GuideBook_CN/issues"
+    },
+    "homepage": "https://github.com/15x15G/FFXIV_ARR_GuideBook_CN#readme",
+    "devDependencies": {
+        "live-server": "^1.2.1"
+    }
+}

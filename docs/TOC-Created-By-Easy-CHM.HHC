@@ -1,0 +1,593 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="EasyCHM.exe  www.zipghost.com">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ExWindow Styles" value="0x200">
+	<param name="Window Styles" value="0x800025">
+	<param name="Font" value="MS Sans Serif,9,0">
+  <param name="FrameName" value="right">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="※前言一">
+		<param name="Local" value="※前言一.htm">
+		<param name="ImageNumber" value="17">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="※前言二">
+		<param name="Local" value="※前言二.htm">
+		<param name="ImageNumber" value="17">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="基础篇">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="开服初期新手指南">
+			<param name="Local" value="基础篇/开服新手指南.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="主要副本开启条件">
+			<param name="Local" value="基础篇/主要副本及任务开启条件.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="全特职可共享技能一览">
+			<param name="Local" value="基础篇/全特职可共享技能一览.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="进阶篇">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="宏命令作用详解(基础篇)">
+			<param name="Local" value="进阶篇/宏命令作用详解(基础篇).htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="宏命令实际应用(进阶篇)">
+			<param name="Local" value="进阶篇/宏命令实际应用(进阶篇).htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="眩晕抗性机制详解">
+			<param name="Local" value="进阶篇/眩晕抗性机制详解.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="极限技系统详解">
+			<param name="Local" value="进阶篇/极限技系统详解.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="仇恨机制详解">
+			<param name="Local" value="进阶篇/仇恨机制详解.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="战斗篇">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="15、16、17副本溶洞、墓园、铜山">
+			<param name="Local" value="战斗篇/15、16、17副本溶洞、墓园、铜山.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="20副本魔兽领域 日影地修炼所">
+			<param name="Local" value="战斗篇/20副本魔兽领域%20日影地修炼所.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="24副本监狱废墟 托托·拉克千狱">
+			<param name="Local" value="战斗篇/24副本监狱废墟%20托托拉克地牢.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="28副本名门府邸 静语庄园">
+			<param name="Local" value="战斗篇/28副本名门宅邸%20哈科塔庄园.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="32副本休养胜地 布雷福洛克斯野营地">
+			<param name="Local" value="战斗篇/32副本夺还支援%20布雷芙洛克斯的野营地.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="35副本古代遗迹 喀恩埋没圣堂">
+			<param name="Local" value="战斗篇/35副本卡伦埋没寺院.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="38副本流沙迷宫 樵鸣洞">
+			<param name="Local" value="战斗篇/38副本流沙迷宫%20卡塔兹克莱.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="41副本对龙城塞 石卫塔">
+			<param name="Local" value="战斗篇/41副本要塞攻略%20斯通维极尔.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="44副本山中战线 泽梅尔要塞">
+			<param name="Local" value="战斗篇/44副本清扫作战%20泽美尔要塞.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="47副本毒雾洞窟 黄金谷">
+			<param name="Local" value="战斗篇/47副本雾中行军%20奥拉姆威尔.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="50副本神灵圣域 放浪神古神殿">
+			<param name="Local" value="战斗篇/50副本圣域之旅%20万达拉王宫.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="50副本领航明灯 天狼星灯塔">
+			<param name="Local" value="战斗篇/50副本怪鸟巨塔%20西利乌斯大灯塔.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="50副本邪教驻地 无限城古堡">
+			<param name="Local" value="战斗篇/50副本邪教驱除%20古城阿姆达普尔.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="50副本恶灵府邸 静语庄园">
+			<param name="Local" value="战斗篇/50副本妖异之屋%20哈科塔庄园.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="50副本骚乱坑道 铜铃铜山">
+			<param name="Local" value="战斗篇/50副本骚乱坑道%20铜铃铜山.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="50副本剑斗领域 日影地修炼所">
+			<param name="Local" value="战斗篇/50副本剑斗领域%20日影地修炼所.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="50副本纷争要地 布雷福洛克斯野营地">
+			<param name="Local" value="战斗篇/50副本盟友支援%20布雷芙洛克斯的野营地.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="50副本腐坏遗迹 无限城市街古迹">
+			<param name="Local" value="战斗篇/50副本腐败遗迹%20古代阿姆达普尔市区.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="50主线副本(8人)外围城塞 帝国南方堡">
+			<param name="Local" value="战斗篇/50主线副本(8人)外围城塞%20帝国南方堡.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="50主线副本(8人)最终决战 天幕魔导城">
+			<param name="Local" value="战斗篇/50主线副本(8人)最终决战%20天幕魔导城.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="50级副本(24人)水晶塔 古代人迷宫">
+			<param name="Local" value="战斗篇/50副本(24人Raid)%20水晶塔.htm">
+			<param name="ImageNumber" value="12">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="(极)究极神兵攻略">
+			<param name="Local" value="战斗篇/(极)究极神兵攻略.htm">
+			<param name="ImageNumber" value="12">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="普通三蛮神攻略">
+			<param name="Local" value="战斗篇/普通三蛮神攻略.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="极风神攻略">
+			<param name="Local" value="战斗篇/极风神攻略.htm">
+			<param name="ImageNumber" value="12">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="极泰坦攻略">
+			<param name="Local" value="战斗篇/极泰坦攻略.htm">
+			<param name="ImageNumber" value="12">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="极火神攻略">
+			<param name="Local" value="战斗篇/极火神攻略.htm">
+			<param name="ImageNumber" value="12">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="极水神攻略">
+			<param name="Local" value="战斗篇/极水神攻略.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="极贤王攻略">
+			<param name="Local" value="战斗篇/极贤王攻略.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="巴哈姆特大迷宫：介绍篇">
+			<param name="Local" value="战斗篇/巴哈姆特大迷宫：介绍篇.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="巴哈姆特大迷宫：邂逅篇1层">
+			<param name="Local" value="战斗篇/巴哈姆特大迷宫：邂逅篇1层.htm">
+			<param name="ImageNumber" value="12">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="巴哈姆特大迷宫：邂逅篇1层">
+			<param name="Local" value="战斗篇/巴哈姆特大迷宫：邂逅篇2层.htm">
+			<param name="ImageNumber" value="12">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="巴哈姆特大迷宫：邂逅篇3层">
+			<param name="Local" value="战斗篇/巴哈姆特大迷宫：邂逅篇3层.htm">
+			<param name="ImageNumber" value="12">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="巴哈姆特大迷宫：邂逅篇4层">
+			<param name="Local" value="战斗篇/巴哈姆特大迷宫：邂逅篇4层.htm">
+			<param name="ImageNumber" value="12">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="巴哈姆特大迷宫：邂逅篇5层">
+			<param name="Local" value="战斗篇/巴哈姆特大迷宫：邂逅篇5层.htm">
+			<param name="ImageNumber" value="12">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="FATE：奥丁狩猎攻略">
+			<param name="Local" value="战斗篇/上古斗神-奥丁狩猎攻略.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="讨伐手册">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="剑术师">
+			<param name="Local" value="讨伐手册/剑术师.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="格斗家">
+			<param name="Local" value="讨伐手册/格斗家.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="咒术师">
+			<param name="Local" value="讨伐手册/咒术师.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="斧术师">
+			<param name="Local" value="讨伐手册/斧术师.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="秘术师">
+			<param name="Local" value="讨伐手册/秘术师.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="枪术师">
+			<param name="Local" value="讨伐手册/枪术师.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="弓箭手">
+			<param name="Local" value="讨伐手册/弓箭手.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="幻术师">
+			<param name="Local" value="讨伐手册/幻术师.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="恒辉队">
+			<param name="Local" value="讨伐手册/恒辉队.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="黑涡团">
+			<param name="Local" value="讨伐手册/黑涡团.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="双蛇党">
+			<param name="Local" value="讨伐手册/双蛇党.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="采集篇">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="全采集职业任务达成条件">
+			<param name="Local" value="采集篇/全采集职业任务达成条件.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="采矿工最速升级指南">
+			<param name="Local" value="采集篇/采矿工最速升级指南.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="园艺工最速升级指南">
+			<param name="Local" value="采集篇/园艺工最速升级指南.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="捕鱼人最速升级指南">
+			<param name="Local" value="采集篇/捕鱼人最速升级指南.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="采矿工理符任务一览">
+			<param name="Local" value="采集篇/采矿工行会理符任务.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="园艺工理符任务一览">
+			<param name="Local" value="采集篇/园艺工行会理符任务.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="捕鱼人理符任务一览">
+			<param name="Local" value="采集篇/捕鱼人行会理符任务.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="采矿工全采集点一览">
+			<param name="Local" value="采集篇/全采矿点一览.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="园艺工全采集点一览">
+			<param name="Local" value="采集篇/全采集点一览.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="未知资源全采集点一览">
+			<param name="Local" value="采集篇/全未知采集点一览.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="采集计时器">
+			<param name="Local" value="采集篇/采集计时器1.1/index.html">
+			<param name="ImageNumber" value="41">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="全钓饵获取途径一览">
+			<param name="Local" value="采集篇/全钓饵获取方法及途径.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="所有鱼类及钓点一览">
+			<param name="Local" value="采集篇/所有鱼类及钓点一览3.0.htm">
+			<param name="ImageNumber" value="21">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="生产篇">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="全生产职业任务达成条件">
+			<param name="Local" value="生产篇/全生产职业任务达成条件.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="裁衣匠最速升级指南">
+			<param name="Local" value="生产篇/裁衣匠最速升级指南.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="雕金匠最速升级指南">
+			<param name="Local" value="生产篇/雕金匠最速升级指南.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="炼金术士最速升级指南">
+			<param name="Local" value="生产篇/炼金术士最速升级指南.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="锻铁匠最速升级指南">
+			<param name="Local" value="生产篇/锻铁匠最速升级指南.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="铸甲匠最速升级指南">
+			<param name="Local" value="生产篇/铸甲匠最速升级指南.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="烹调师最速升级指南">
+			<param name="Local" value="生产篇/烹调师最速升级指南.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="刻木匠最速升级指南">
+			<param name="Local" value="生产篇/刻木匠最速升级指南.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="制革匠最速升级指南">
+			<param name="Local" value="生产篇/制革匠最速升级指南.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="裁衣匠理符任务一览">
+			<param name="Local" value="生产篇/裁衣匠行会理符任务.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="雕金匠理符任务一览">
+			<param name="Local" value="生产篇/雕金匠行会理符任务.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="炼金术士理符任务一览">
+			<param name="Local" value="生产篇/炼金术士行会理符任务.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="锻铁匠理符任务一览">
+			<param name="Local" value="生产篇/锻铁匠行会理符任务.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="铸甲匠理符任务一览">
+			<param name="Local" value="生产篇/铸甲匠行会理符任务.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="烹调师理符任务一览">
+			<param name="Local" value="生产篇/烹调师行会理符任务.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="刻木匠理符任务一览">
+			<param name="Local" value="生产篇/刻木匠行会理符任务.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="制革匠理符任务一览">
+			<param name="Local" value="生产篇/制革匠行会理符任务.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="裁衣匠全生产配方大全">
+			<param name="Local" value="生产篇/裁衣匠全生产配方.htm">
+			<param name="ImageNumber" value="21">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="雕金匠全生产配方大全">
+			<param name="Local" value="生产篇/雕金匠全生产配方.htm">
+			<param name="ImageNumber" value="21">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="炼金术士全生产配方大全">
+			<param name="Local" value="生产篇/炼金术士全生产配方.htm">
+			<param name="ImageNumber" value="21">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="锻铁匠全生产配方大全">
+			<param name="Local" value="生产篇/锻铁匠全生产配方.htm">
+			<param name="ImageNumber" value="21">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="铸甲匠全生产配方大全">
+			<param name="Local" value="生产篇/铸甲匠全生产配方.htm">
+			<param name="ImageNumber" value="21">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="烹调师全生产配方大全">
+			<param name="Local" value="生产篇/烹调师全生产配方.htm">
+			<param name="ImageNumber" value="21">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="刻木匠全生产配方大全">
+			<param name="Local" value="生产篇/刻木匠全生产配方.htm">
+			<param name="ImageNumber" value="21">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="制革匠全生产配方大全">
+			<param name="Local" value="生产篇/制革匠全生产配方.htm">
+			<param name="ImageNumber" value="21">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="三主城所售素材一览">
+			<param name="Local" value="生产篇/三主城所售素材一览.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="通过狩猎获取高价素材">
+			<param name="Local" value="生产篇/可通过狩猎直接获取的高价素材.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="其它篇">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="古武+1(天极)任务所需材料一览
+">
+			<param name="Local" value="其它篇/古武+1(天极)所需材料一览.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="古武+2魂晶掉落机制">
+			<param name="Local" value="其它篇/古武+2魂晶掉落机制.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="魔晶石系统详解">
+			<param name="Local" value="其它篇/魔晶石系统详解.htm">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="全魔晶石一览">
+			<param name="Local" value="其它篇/全魔晶石一览.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="全迷你宠物入手方法">
+			<param name="Local" value="其它篇/全迷你宠物入手方法.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="可获得道具奖励成就一览">
+			<param name="Local" value="其它篇/可获得道具奖励成就一览.htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="未来版本技能调整说明(PVE篇)">
+			<param name="Local" value="其它篇/未来版本技能调整说明(PVE篇).htm">
+			<param name="ImageNumber" value="23">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="魂晶计时器">
+			<param name="Local" value="其它篇/多功能魂晶计时器.html">
+			<param name="ImageNumber" value="41">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="公会屋购置指南">
+			<param name="Local" value="其它篇/公会屋购置指南.htm">
+			<param name="ImageNumber" value="41">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="外部资料站索引">
+			<param name="Local" value="其它篇/资料站推介.htm">
+			<param name="ImageNumber" value="13">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="※补充说明">
+		<param name="Local" value="※补充说明.htm">
+		<param name="ImageNumber" value="17">
+		</OBJECT>
+</UL>
+</BODY></HTML>
