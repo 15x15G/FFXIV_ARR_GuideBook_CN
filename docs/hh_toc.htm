@@ -30,7 +30,7 @@
   <script src="tree.js" type="text/javascript"></script>
 
   <script type="text/javascript">
-  <!--
+  // <!--
   _DefaultPage_ = "※前言一.htm"; //defined in hw_library.js
 
 
@@ -101,8 +101,9 @@
     var url=gotoUrl + parentFName + "#"+ rightURL;  //pass the full relative path using ?topFilePath#RightFramePath 
 
     //Show URL in prompt and give option to goto the URL
-    url = prompt("Absolute address. Click OK to load this URL in the browser", url);  
-    if (url != "" && url != null)
+    url = prompt("单击确定按钮复制并加载此URL", url);  
+    if (url != "" && url != null)      
+      navigator.clipboard.writeText(url);
       top.location.href= url  ;    //rwc:new .. added +TopFilename
   }
   
@@ -122,7 +123,7 @@
  
     var rightURL = SyncDocUrl(true);
     if (rightURL != "")  {
-      ShowUrlBox(rightURL);
+      ShowUrlBox(decodeURI(rightURL));
     }
   }
 
@@ -503,7 +504,7 @@
   }
       
       
-  -->
+  // -->
   </script>
 
 
@@ -515,34 +516,34 @@
 
 
 <div align="right" style="margin:3px 8px 5px 3px;" onselectstart="return false;">
-   <span title="Get absolute address of current page"
+   <span title="获取当前页面的链接"
       style="cursor: pointer; font-size: 8pt; font-family: verdana,arial,sans-serif;"
       onmouseover="this.style.textDecoration='underline'"
       onmouseout="this.style.textDecoration='none'"
-      onclick="GetFullLink();">get link</span>
+      onclick="GetFullLink();">本文链接</span>
 |
-   <span title="Sync table of contents to current page"
+   <span title="将目录定位到当前页面"
       style="cursor: pointer; font-size: 8pt; font-family: verdana,arial,sans-serif;"
       onmouseover="this.style.textDecoration='underline'"
       onmouseout="this.style.textDecoration='none'"
-      onclick="DoTocSync(true);">sync toc</span>
+      onclick="DoTocSync(true);">定位本文</span>
 |
-   <span title="Previous Page"
+   <span title="上一页"
       style="cursor: pointer; font-size: 8pt; font-family: verdana,arial,sans-serif;"
       onmouseover="this.style.textDecoration='underline'"
       onmouseout="this.style.textDecoration='none'"
-      onclick="DoTocNext(false);">&lt;&lt;</span>
+      onclick="DoTocNext(false);">上一页</span>
 |
-   <span title="Next Page"
+   <span title="下一页"
       style="cursor: pointer; font-size: 8pt; font-family: verdana,arial,sans-serif;"
       onmouseover="this.style.textDecoration='underline'"
       onmouseout="this.style.textDecoration='none'"
-      onclick="DoTocNext(true);">&gt;&gt;</span>
+      onclick="DoTocNext(true);">下一页</span>
 </div>
 
     <div id="searchDiv" style="display:inline;white-space:nowrap;margin: 11px 0px 0px 0px; padding: 0px 0px 0px 5px;">
             <input type="text" id="searchEntry" class="docstyle"
-                style="width:90%;margin-right:3px;"
+                style="width:90%;margin-right:3px;" placeholder="搜索标题"
                 onkeyup="javascript:return(SearchEntry_OnKeyUp(event));"><input 
             type="button" id="optionsBtn" value="v" onclick="javascript:ShowOptions()">
     </div>
